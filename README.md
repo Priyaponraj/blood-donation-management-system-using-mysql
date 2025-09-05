@@ -43,25 +43,21 @@ SELECT * FROM donors;
 SELECT * FROM bloodinventory;
 SELECT * FROM requests WHERE status='Pending';
 
-
-📂 File Structure
+File Structure
 
 ├── blood_donation.sql    # MySQL script with tables, inserts, and queries
 ├── README.md              # Project documentation
 └── Project_Report.pdf     # Detailed project report (optional)
 
+Dependencies
 
-🔍 Dependencies
+MySQL      (Optional) SQLFiddle or other online compilers for demo
 
-MySQL
-
-(Optional) SQLFiddle or other online compilers for demo
-
-⚠️ Notes
+Notes
 
 Data is sample only (can be extended with real hospital/donor data).
 
 Can be expanded with frontend (PHP/Java/Python) for real-time use.
 
-📄 License
+License
 This project is open for educational and non-commercial use.
